@@ -33,8 +33,6 @@ struct RGB **Driver::getOrderedData()
 
     int lastDataPosition = dataInfo.ir;
 
-    cout << allData[lastDataPosition].r << endl;
-
     struct RGB **orderedArray = (struct RGB **)malloc(ARRAY_LENGTH * sizeof(*orderedArray));
 
     for (int k = 0; k < ARRAY_LENGTH; k++)
